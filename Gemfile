@@ -27,6 +27,10 @@ gem 'turbolinks', '1.1.1'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '1.0.2'
 
+#add bootstrap-sass
+gem 'bootstrap-sass', '2.3.2.0'
+
+#add rb-fsevent for guard
 gem 'rb-fsevent', '~> 0.9'
 
 group :doc do
