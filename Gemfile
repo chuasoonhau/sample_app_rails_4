@@ -33,6 +33,10 @@ gem 'bootstrap-sass', '2.3.2.0'
 #add rb-fsevent for guard
 gem 'rb-fsevent', '~> 0.9'
 
+#add bcrypt for password encryption
+gem 'bcrypt-ruby', '3.0.1'
+
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', '0.3.20', require: false
